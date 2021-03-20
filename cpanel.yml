@@ -1,26 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u7176468/
+    - export DEPLOYPATH=/home/user/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp -R CSS $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R scss $DEPLOYPATH
-    - /bin/cp -R vendors $DEPLOYPATH
-    - /bin/cp about-us.html $DEPLOYPATH
-    - /bin/cp blog-grid.html $DEPLOYPATH
-    - /bin/cp blog-masonry.html $DEPLOYPATH
-    - /bin/cp blog-with-siddebar $DEPLOYPATH
-    - /bin/cp contact.html $DEPLOYPATH
-    - /bin/cp mail.php $DEPLOYPATH
-    - /bin/cp prepros-6.config $DEPLOYPATH
-    - /bin/cp project-detail.html $DEPLOYPATH
-    - /bin/cp single-blog-gallery.html $DEPLOYPATH
-    - /bin/cp single-blog-image.html $DEPLOYPATH
-    - /bin/cp single-blog-video.html $DEPLOYPATH
-    - /bin/cp work-grid.html $DEPLOYPATH
-    - /bin/cp work-list.html $DEPLOYPATH
-    - /bin/cp work-masonry.html $DEPLOYPATH
-    - /bin/cp work-spartan.html $DEPLOYPATH
